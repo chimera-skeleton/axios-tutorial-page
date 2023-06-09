@@ -1,0 +1,94 @@
+
+.wrapper {
+    font-family: "Chinese Quotes", "Inter var", "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    position: relative;
+    display: flex;
+    width: 100vw;
+    /* list-style: none; */
+    background-color: #ffffff;
+}
+
+.left {
+    width: 280px;
+    /* 左侧宽度 */
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #161618;
+}
+
+.axios {
+    color: rgba(255, 255, 245, .82);
+    padding: 30px 20px;
+    margin-bottom: 10px;
+    display: block;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(82, 82, 89, .32);
+}
+
+.aside {
+    padding: 0 40px;
+    width: 100%;
+}
+
+.asideContent {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 4px 0 ;
+    color: rgba(255, 255, 245, .82);
+}
+
+.middle {
+    /* flex-grow: 1; */
+    margin-left: 280px;
+    /* 左侧宽度 */
+    margin-right: 256px;
+    /* 右侧宽度 */
+    padding: 64px 80px;
+    background-color: #1e1e20;
+}
+
+.right {
+    width: 256px;
+    /* 右侧宽度 */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 64px;
+    background-color: #1e1e20;
+}
+
+.toc-h2{
+    font-size: 13px;
+    line-height: 28px;
+    color: rgba(255, 255, 245, .6);
+    transition: color .5s;
+}
+
+.toc-h2:hover{
+    color: rgba(255, 255, 245, .82);
+    transition: color .25s;
+}
+
+.toc-h3{
+    padding: 10px;
+    font-size: 13px;
+    line-height: 28px;
+    color: rgba(255, 255, 245, .6);
+    transition: color .5s;
+}
+
+.toc-h3:hover{
+    color: rgba(255, 255, 245, .82);
+    transition: color .25s;
+}
