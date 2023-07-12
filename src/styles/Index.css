@@ -37,7 +37,7 @@
     /* background-color: azure; */
 }
 
-.center svg {
+.svg {
     animation: axiosAnime 4s linear infinite;
 }
 

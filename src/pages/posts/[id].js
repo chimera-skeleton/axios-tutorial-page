@@ -1,8 +1,7 @@
 import { getAllPostsName, getPostData } from '../../../lib/posts';
-import hljs from 'highlight.js';
 import style from './posts.module.css';
 import 'highlight.js/styles/atom-one-dark.css';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
